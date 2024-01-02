@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "OrderService.Protos";
+
+package order;
+
+// The Order service definition.
+service OrderProcessing {
+  // Sends a new order
+  rpc PlaceOrder (OrderRequest) returns (OrderReply);
+
+  // Update order
+  rpc UpdateOrder (OrderRequest) returns (OrderReply);
+}
+
+message OrderRequest {
+    OrderDetails orderDetails = 1;
+}
+
+message OrderReply {
+	OrderDetails orderDetails = 1;
+}
+
+message OrderDetails {
+    optional int32 order_id = 1;
+	string product_name = 2;
+	string description = 3;
+    int32 order_quantity = 4;
+    string color = 5;
+    double unit_price = 6;
+    string ship_address = 7;
+}

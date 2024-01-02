@@ -1,0 +1,58 @@
+[
+	{
+      "id": 4,
+      "name": "Product D",
+      "description": "A sleek and modern product for everyday use.",
+      "price": 79,
+      "color": "Silver"
+    },
+    {
+      "id": 5,
+      "name": "Product E",
+      "description": "Compact and lightweight, perfect for on-the-go.",
+      "price": 34,
+      "color": "Black"
+    },
+    {
+      "id": 6,
+      "name": "Product F",
+      "description": "Eco-friendly and sustainable choice for environmentally conscious buyers.",
+      "price": 59,
+      "color": "Natural"
+    },
+    {
+      "id": 7,
+      "name": "Product G",
+      "description": "Premium quality with advanced features for tech enthusiasts.",
+      "price": 129,
+      "color": "Graphite"
+    },
+    {
+      "id": 8,
+      "name": "Product H",
+      "description": "Fashionable and trendy, a must-have for style-conscious consumers.",
+      "price": 44,
+      "color": "Rose Gold"
+    },
+	 {
+      "id": 1,
+      "name": "Product A",
+      "description": "This is the description for Product A.",
+      "price": 29,
+      "color": "Red"
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "description": "Description for Product B goes here.",
+      "price": 49,
+      "color": "Blue"
+    },
+    {
+      "id": 3,
+      "name": "Product C",
+      "description": "Product C is a high-quality item.",
+      "price": 39,
+      "color": "Green"
+    }
+]
